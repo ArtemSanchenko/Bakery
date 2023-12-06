@@ -1,3 +1,15 @@
+:root {
+  --main-color: #ffffff;
+  --bg-color: #202023;
+  --list-color: #f2f2f2;
+  --button-color: #b47b48;
+  --buybutton-color: #c85312;
+
+}
+.body {
+font-family: Inter, sans-serif;
+font-family: Italiana, sans-serif;
+}
 h1,
 h2,
 h3,
