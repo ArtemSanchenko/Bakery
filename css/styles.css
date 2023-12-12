@@ -59,3 +59,62 @@ font-style: normal;
 font-weight: 200;
 line-height: normal;
 }
+.hero-title {
+color: var(--main-color);
+font-family: Inter;
+font-size: 70px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+}
+.hero-subtitle {
+color: var(--main-color);
+font-family: Inter;
+font-size: 21px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.hero-button {
+width: 207px;
+height: 57px;
+flex-shrink: 0;
+border-radius: 17px;
+background-color:var(--button-color);
+color: var(--main-color);
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+border: none;
+}
+.food-list-item-box-subtitle {
+color: var(--main-color);
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+}
+.food-list-item-box-title {
+color: var(--main-color);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.food-list-item-box-button {
+width: 79px;
+height: 34px;
+flex-shrink: 0;
+background-color:var(--buybutton-color);
+color: var(--main-color);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+border:none;
+}
