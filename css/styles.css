@@ -135,5 +135,147 @@ font-weight: 800;
 line-height: normal;
 }
 .menu-list-item-box-button {
-  
+width: 160px;
+height: 41px;
+flex-shrink: 0;
+border-radius: 17px;
+background-color: var(--button-color);
+color: var(--main-color);
+font-family: Inter;
+font-size: 25.92px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+border: var(--button-color);
+}
+.quality-title {
+color: var(--main-color);
+font-family: Italiana;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.recipes-list-item {
+color: var(--main-color);
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.quality-list-item-list-item {
+  color: var(--main-color);
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.information-title {
+color: var(--list-color);
+font-family: Italiana;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.information-list-item-text {
+  color: var(--main-color);
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.sites-list-item-title {
+  color: var(--main-color);
+font-family: Italiana;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.sites-list-item-title:nth-child(1) {
+  color: var(--main-color);
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.sites-list-item-title:nth-child() {
+  color: var(--main-color);
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.sites-list-item-text-link {
+  color: var(--main-color);
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.sites-list-item-text {
+color: var(--main-color);
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.sites-list-item-title:nth-last-child(){
+color: var(--main-color);
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+}
+.main-title-footer{
+color: var(--main-color);
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+}
+.main-text-footer {
+  color:var(--main-color);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.footer-list-item-title {
+  color: var(--main-color);
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.footer-list-item-title-text {
+  color: var(--main-color);
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.footer-text{
+  color: var(--main-color);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 100;
+line-height: normal;
 }
