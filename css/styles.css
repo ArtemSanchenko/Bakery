@@ -118,3 +118,22 @@ font-weight: 900;
 line-height: normal;
 border:none;
 }
+.menu-title {
+color: var(--main-color);
+font-family: Inter;
+font-size: 64px;
+font-style: normal;
+font-weight: 100;
+line-height: normal;
+}
+.menu-list-item-box-title {
+color: var(--main-color);
+font-family: Inter;
+font-size: 25.92px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.menu-list-item-box-button {
+  
+}
