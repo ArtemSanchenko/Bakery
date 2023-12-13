@@ -279,3 +279,6 @@ font-style: normal;
 font-weight: 100;
 line-height: normal;
 }
+.food > .container {
+  width: 1800px;
+}
