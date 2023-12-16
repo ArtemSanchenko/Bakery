@@ -106,6 +106,9 @@ line-height: normal;
   background-repeat: no-repeat;
   background-size: auto;
 }
+.food-list-item-box-title {
+  padding-bottom: 35px;
+}
 .hero-button {
 width: 207px;
 height: 57px;
@@ -120,7 +123,24 @@ font-weight: 300;
 line-height: normal;
 border: none;
 }
-
+.menu-title {
+  padding-top: 21px;
+}
+.quality-title {
+  padding-top: 90px;
+  padding-bottom: 46px;
+}
+.sites-list-item-title {
+  padding-top: 66px;
+  padding-bottom: 44px;
+}
+.information-list-item-text {
+  padding-bottom: 52px;
+}
+.information-title {
+  padding-top: 55px;
+  padding-bottom: 132px;
+}
 .food-list-item-box-subtitle {
 color: var(--main-color);
 font-family: Inter;
