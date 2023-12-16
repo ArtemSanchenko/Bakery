@@ -51,6 +51,11 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.container {
+  width: 1186px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 .header-nav-list-link {
 color: var(--main-color);
 font-family: Inter;
@@ -279,6 +284,4 @@ font-style: normal;
 font-weight: 100;
 line-height: normal;
 }
-.food > .container {
-  width: 1800px;
-}
+
