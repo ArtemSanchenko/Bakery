@@ -95,7 +95,6 @@ line-height: normal;
   background-image: url(../images/background_2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-size: auto;
 }
 .information {
   background-image: url(../images/background-table.jpg);
@@ -135,6 +134,15 @@ line-height: normal;
 }
 .hero-title {
   padding-bottom: 22px;
+}
+.hero-subtitle {
+  padding-bottom: 33px;
+}
+.food-list {
+  padding-top: 125px;
+}
+.food-list-item-box-subtitle {
+  padding-bottom: 13px;
 }
 .food-list-item-box-title {
 color: var(--main-color);
