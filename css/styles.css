@@ -80,6 +80,22 @@ font-style: normal;
 font-weight: 300;
 line-height: normal;
 }
+.body {
+  background-image: url(/images/background_1.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.menu {
+  background-color: var(--bg-color);
+}
+.quality {
+  background-image: url(/images/background_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.information {
+  background-image: url(/images/background-table.jpg);
+}
 .hero-button {
 width: 207px;
 height: 57px;
@@ -94,6 +110,7 @@ font-weight: 300;
 line-height: normal;
 border: none;
 }
+
 .food-list-item-box-subtitle {
 color: var(--main-color);
 font-family: Inter;
