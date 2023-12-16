@@ -96,6 +96,9 @@ line-height: normal;
 .information {
   background-image: url(/images/background-table.jpg);
 }
+.footer {
+  background-color: var(--bg-color);
+}
 .hero-button {
 width: 207px;
 height: 57px;
