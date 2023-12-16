@@ -81,23 +81,31 @@ font-weight: 300;
 line-height: normal;
 }
 .body {
-  background-image: url(/images/background_1.jpg);
+  background-image: url(../images/background_1.jpg);
   background-repeat: no-repeat;
   background-position: top center;
+  background-size: auto;
 }
 .menu {
   background-color: var(--bg-color);
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 .quality {
-  background-image: url(/images/background_2.jpg);
+  background-image: url(../images/background_2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-size: auto;
 }
 .information {
-  background-image: url(/images/background-table.jpg);
+  background-image: url(../images/background-table.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 .footer {
   background-color: var(--bg-color);
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 .hero-button {
 width: 207px;
@@ -121,6 +129,12 @@ font-size: 24px;
 font-style: normal;
 font-weight: 200;
 line-height: normal;
+}
+.header-nav-list {
+  padding-bottom: 71px;
+}
+.hero-title {
+  padding-bottom: 22px;
 }
 .food-list-item-box-title {
 color: var(--main-color);
