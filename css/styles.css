@@ -149,19 +149,33 @@ font-style: normal;
 font-weight: 200;
 line-height: normal;
 }
-.header-nav-list {
-  padding-bottom: 71px;
-}
-.hero-title {
-  padding-bottom: 22px;
-}
-.hero-subtitle {
-  padding-bottom: 33px;
+.header {
+padding-top: 55px;
+padding-bottom: 71px;
 }
 .food-list {
-  padding-top: 125px;
+  display: flex;
+  gap: 104px;
+  justify-content: center;
 }
-.food-list-item-box-subtitle {
+.header-nav-list {
+  display: flex;
+  gap: 28px;
+}
+.hero-title {
+  margin-bottom: 22px;
+}
+.menu-list {
+display: flex;
+flex-wrap: wrap;
+justify-content:center;
+}
+.hero-subtitle {
+  margin-bottom: 33px;
+}
+
+.food {
+  padding-top: 125px;
   padding-bottom: 13px;
 }
 .food-list-item-box-title {
