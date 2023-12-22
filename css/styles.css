@@ -134,12 +134,19 @@ border: none;
   padding-top: 90px;
   padding-bottom: 46px;
 }
-.sites-list-item-title {
+.footer-location-title {
   padding-top: 66px;
   padding-bottom: 44px;
 }
+.sites-list-ietem-image {
+  padding-right: 132px;
+}
 .information-list-item-text {
   padding-bottom: 52px;
+}
+.sites-list-item-title {
+  padding-top: 180px;
+  padding-bottom: 49px;
 }
 .information-title {
   padding-top: 55px;
@@ -260,7 +267,6 @@ line-height: normal;
   line-height: normal;
   padding-top: 40px;
 }
-
 .menu-list-item-box-button {
 width: 160px;
 height: 41px;
@@ -315,7 +321,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-.sites-list-item-title {
+.footer-location-title {
   color: var(--main-color);
 font-family: Italiana;
 font-size: 48px;
@@ -354,6 +360,14 @@ font-size: 24px;
 font-style: normal;
 font-weight: 300;
 line-height: normal;
+}
+.sites-list-item-text-link {
+  padding-bottom: 65px;
+}
+.footer-list {
+  display: flex;
+  justify-content: center;
+  gap: 141px;
 }
 .sites-list-item-title:nth-last-child(){
 color: var(--main-color);
@@ -405,5 +419,8 @@ font-size: 20px;
 font-style: normal;
 font-weight: 100;
 line-height: normal;
+text-align: center;
+padding-top: 86px;
+padding-bottom: 44px;
 }
 
