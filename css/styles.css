@@ -364,10 +364,22 @@ line-height: normal;
 .sites-list-item-text-link {
   padding-bottom: 65px;
 }
+.footer-list-item-title{
+  padding-bottom: 41px;
+}
+.menu-list-item {
+  border: 1px solid var(--main-color);
+}
+.main-title-footer {
+  padding-top: 112px;
+}
+ .containar {
+  display: flex;
+}
 .footer-list {
   display: flex;
-  justify-content: center;
   gap: 141px;
+  padding-top: 90px;
 }
 .sites-list-item-title:nth-last-child(){
 color: var(--main-color);
