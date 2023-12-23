@@ -105,6 +105,9 @@ line-height: normal;
   background-repeat: no-repeat;
   background-size: auto;
 }
+.menu-list-item-box-conteiner {
+  border: 1px solid var(--main-color);
+}
 .footer {
   background-color: var(--bg-color);
   background-repeat: no-repeat;
@@ -367,9 +370,6 @@ line-height: normal;
 }
 .footer-list-item-title{
   padding-bottom: 41px;
-}
-.menu-list-item {
-  border: 1px solid var(--main-color);
 }
 .main-title-footer {
   padding-top: 112px;
