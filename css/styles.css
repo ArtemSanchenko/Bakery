@@ -389,6 +389,26 @@ line-height: normal;
 .food-list-item-box-subtitle{
   padding-bottom: 13px;
 }
+.hero-button:hover,
+.hero-button:focus{
+  color: var(--buybutton-color);
+}
+.sites-list-item-text-link:hover,
+.sites-list-item-text-link:focus{
+  color: var(--buybutton-color);
+}
+.food-list-item-box-button:hover,
+.food-list-item-box-button:focus {
+  color:var(--button-color);
+}
+.header-nav-list-link:hover, 
+.header-nav-list-link:focus{
+  color: var(--button-color);
+}
+.menu-list-item-box-button:hover, 
+.menu-list-item-box-button:focus{
+  color: var(--buybutton-color);
+}
 .sites-list-item-tiktok {
   color:var(--main-color);
 font-family: Inter;
@@ -438,7 +458,6 @@ line-height: normal;
 }
 .footer-list-item-title {
   color: var(--main-color);
-text-align: center;
 font-family: Inter;
 font-size: 24px;
 font-style: normal;
