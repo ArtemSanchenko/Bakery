@@ -4,7 +4,7 @@
   --list-color: #f2f2f2;
   --button-color: #b47b48;
   --buybutton-color: #c85312;
-
+  --card-color:#EBAD51;
 }
 .body {
 font-family: Inter, sans-serif;
@@ -228,6 +228,7 @@ font-size: 64px;
 font-style: normal;
 font-weight: 100;
 line-height: normal;
+text-align: center;
 }
 .quality-list {
   display: flex;
@@ -405,6 +406,10 @@ font-size: 20px;
 font-style: normal;
 font-weight: 300;
 line-height: normal;
+}
+.information-list {
+  display: flex;
+  gap: 285px;
 }
 .footer-list-item-title {
   color: var(--main-color);
