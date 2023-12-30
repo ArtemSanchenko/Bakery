@@ -88,22 +88,33 @@ line-height: normal;
   background-image: url(../images/background_1.jpg);
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: auto;
+  background-color: var(--bg-color);
 }
 .menu {
   background-color: var(--bg-color);
   background-repeat: no-repeat;
   background-size: auto;
+   padding-top: 21px;
+   padding-bottom: 73px;
 }
 .quality {
   background-image: url(../images/background_2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 90px;
+  padding-bottom: 47px;
+}
+.food-list-item:hover,
+.food-list-item:focus {
+background-color: var(--card-color);
 }
 .information {
   background-image: url(../images/background-table.jpg);
   background-repeat: no-repeat;
   background-size: auto;
+  background-size: cover;
+  padding-top: 54px;
+  padding-bottom: 57px;
 }
 .menu-list-item-box-conteiner {
   border: 1px solid var(--main-color);
@@ -130,12 +141,9 @@ font-weight: 300;
 line-height: normal;
 border: none;
 }
-.menu-title {
-  padding-top: 21px;
-}
 .quality-title {
-  padding-top: 90px;
-  padding-bottom: 46px;
+  margin-bottom: 46px;
+  text-align: right;
 }
 .footer-location-title {
   padding-top: 66px;
@@ -152,8 +160,7 @@ border: none;
   padding-bottom: 49px;
 }
 .information-title {
-  padding-top: 55px;
-  padding-bottom: 132px;
+  margin-bottom: 132px;
 }
 .food-list-item-box-subtitle {
 color: var(--main-color);
@@ -219,6 +226,7 @@ border:none;
 }
 .menu-list-item {
   flex-basis: 328px;
+  text-align:center;
 }
 .menu-list {
   column-gap:188px;
@@ -236,6 +244,7 @@ text-align: center;
 .quality-list {
   display: flex;
   gap: 32px;
+  justify-content: center;
 }
 .quality-list-item:nth-child(2) {
   padding-top: 145px;}
@@ -284,6 +293,16 @@ font-style: normal;
 font-weight: 800;
 line-height: normal;
 border: var(--button-color);
+margin-top: 5px;
+}
+.menu-list-item-box-image {
+  margin: 0 auto;
+}
+.menu-list-item:nth-child(4) {
+padding-top: 32px;
+}
+.menu-list-item-box-image {
+padding-top: 32px;
 }
 .quality-title {
 color: var(--main-color);
@@ -316,6 +335,7 @@ font-size: 48px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+
 }
 .information-list-item-text {
   color: var(--main-color);
@@ -436,6 +456,7 @@ font-style: normal;
 font-weight: 200;
 line-height: normal;
 }
+
 .main-title-footer{
 color: var(--main-color);
 font-family: Inter;
@@ -464,6 +485,7 @@ font-style: normal;
 font-weight: 300;
 line-height: normal;
 }
+
 .footer-list-item-title-text {
   color: var(--main-color);
 
